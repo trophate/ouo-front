@@ -8,7 +8,7 @@ let password;
     <input :value="username" />
   </div>
   <div>
-    <input type="password" :value="password"  />
+    <input type="password" :value="password" />
   </div>
   <button>登录</button>
 </template>
