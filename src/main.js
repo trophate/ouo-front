@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import Login from "./components/Login.vue"
+import {createApp} from 'vue'
+import App from "./App.vue"
+import "./jss/route.js"
+import {router} from "./jss/route.js";
 
-createApp(Login).mount('#login')
+createApp(App)
+    .use(router)
+    .mount('#app');

@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <RouterView />
+  <div>home</div>
+  <RouterLink :to="{ name : 'user'}">user</RouterLink>
 </template>
 
 <style scoped>
