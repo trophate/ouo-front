@@ -1,8 +1,8 @@
 <script setup>
-import {login} from "../jss/login.js";
+import { login } from "../plugins/login.js"
 
-let username;
-let password;
+let username
+let password
 </script>
 
 <template>
