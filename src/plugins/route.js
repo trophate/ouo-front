@@ -2,9 +2,9 @@ import Cookies from 'js-cookie'
 import { createMemoryHistory, createRouter } from 'vue-router'
 import { login } from "./login.js"
 
-import Home from "../Page/Home.vue"
-import Login from "../Page/Login.vue"
-import User from "../Page/User.vue"
+import Home from "../pages/Home.vue"
+import Login from "../pages/Login.vue"
+import User from "../pages/User.vue"
 
 /**
  * 直接访问页面列表
